@@ -1,0 +1,131 @@
+/* Universal Styles */
+html {
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Teko';
+    min-width: 1000px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    color: white;
+    height: 6em;
+}
+
+a:hover {
+    color: red;
+}
+
+.logo {
+    width: 50%;
+}
+
+header img {
+    height: 5rem;
+    width: 7rem;
+    float: left;
+    padding: 5px 0
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: inline-flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    width: 100%;
+    float: right;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: "Teko";
+    font-size: 2rem;
+}
+
+/* Landing */
+.landing {
+    background-image: url("images/landing.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    display: flex;
+}
+
+.title {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+/* About */
+
+h2 {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    color: rgb(196, 0, 0);
+}
+
+.about {
+    height: 50rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+.about-1 {
+    width: 60%;
+    background-color:rgb(31, 31, 31);
+    margin-left: 4rem;
+    float: left;
+}
+
+.about img {
+    width: 200px;
+    min-width: 300px;
+    margin-left: -2.5rem;
+    padding-right: 10px; 
+}
+
+.about-1 img {
+    float: left;
+}
+
+.about p {
+    font-size: 2rem;
+}
+
+.about-2 {
+    width: 60%;
+    background-color: rgb(31, 31, 31);
+    float: right;
+    margin-right: 4rem;
+    padding-left: 1em;
+}
+
+.about-2 img {
+    float: right;
+    margin-right: -2.5rem;
+    height: 450px;
+    margin-left: 1em;
+}
+
+.spacing {
+    margin-bottom: 5rem;
+}
+
+.minwidth {
+    min-width: 900px;
+}
