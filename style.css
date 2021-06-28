@@ -131,3 +131,39 @@ h2 {
 .minwidth {
     min-width: 900px;
 }
+
+/* Location */
+
+.location h2 {
+    padding-top: 1.5rem;
+}
+.location {
+    background-color:rgb(31, 31, 31);
+    width: 100%;
+    margin-top: 18rem;
+    height: 40rem;
+}
+
+.map {
+    color: white;
+    font-size: 2rem;
+    width: 50%;
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.map img {
+    width: 60%;
+    min-width: 400px;
+    border-radius: 10px;
+}
+
+.address-box {
+    color: white;
+    font-size: 2rem;
+    width: 49%;
+    display: inline-flex;
+    justify-content: center;
+    border-right: 1px solid white;
+}
