@@ -142,6 +142,8 @@ h2 {
     width: 100%;
     margin-top: 18rem;
     height: 40rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;    
 }
 
 .map {
@@ -166,4 +168,16 @@ h2 {
     display: inline-flex;
     justify-content: center;
     border-right: 1px solid white;
+    padding-bottom: 10rem;
+}
+
+
+/* Footer */
+.footer h5{
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgb(31, 31, 31);
+    text-align: center;
+    font-family: 'Teko', "Times New Roman";
+    padding-top: 3rem;
 }
