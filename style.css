@@ -90,6 +90,7 @@ h2 {
     background-color:rgb(31, 31, 31);
     margin-left: 4rem;
     float: left;
+    max-height: 450px;
 }
 
 .about img {
@@ -113,6 +114,7 @@ h2 {
     float: right;
     margin-right: 4rem;
     padding-left: 1em;
+    max-height: 450px;
 }
 
 .about-2 img {
