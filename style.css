@@ -51,6 +51,31 @@ nav {
     background-color: black;
     font-family: "Teko";
     font-size: 2rem;
+    min-width: 700px;
+}
+
+@media only screen and (max-width: 768px){
+    .logo {
+        display: none;
+    }
+    nav {
+        min-width: 300px;
+    }
+
+    #facilities {
+        display: none;
+    }
+    
+    .about {
+        min-width: 1000px;
+    }
+
+    .about img {
+        display: block;
+    }
+    body {
+        min-width: 300px;
+    }
 }
 
 /* Landing */
@@ -171,6 +196,31 @@ h2 {
     padding-bottom: 10rem;
 }
 
+@media only screen and (max-width: 768px){
+    
+    .location {
+        width: 100%;
+        height: auto;
+    }
+
+    .map {
+        color: white;
+        font-size: 2rem;
+        width: 100%;
+        float: none;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+
+    .address-box {
+        float:none;
+        border-right: none;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+}
 
 /* Footer */
 .footer h5{
@@ -180,4 +230,11 @@ h2 {
     text-align: center;
     font-family: 'Teko', "Times New Roman";
     padding-top: 3rem;
+}
+
+@media only screen and (max-width: 768px){
+    .footer h5{
+        margin-bottom: -2rem;
+        padding-top: 0;
+    }
 }
