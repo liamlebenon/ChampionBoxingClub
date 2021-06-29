@@ -4,6 +4,10 @@ html {
     background-color: rgb(0, 0, 0);
 }
 
+#mobileGallery {
+    display: none;
+}
+
 body {
     max-width: 100%;
     margin: 0 auto;
@@ -52,6 +56,7 @@ nav {
     font-family: "Teko";
     font-size: 2rem;
     min-width: 700px;
+    z-index: 1;
 }
 
 @media only screen and (max-width: 768px){
@@ -67,14 +72,23 @@ nav {
     }
     
     .about {
-        min-width: 1000px;
+        min-width: 0;
     }
 
-    .about img {
-        display: block;
-    }
     body {
-        min-width: 300px;
+        min-width: 0;
+    }
+
+    #mobileGallery {
+        display: inline-flex;
+        width: 100%;
+        margin-top: 100px;
+        position: relative;
+        top: 7rem;
+    }
+
+    #mobileGallery img {
+        width: 150%;
     }
 }
 
@@ -157,6 +171,23 @@ h2 {
     min-width: 900px;
 }
 
+@media only screen and (max-width: 768px) {
+    .about-1 img, .about-2 img {
+        display: none;
+    }
+    .about-1, .about-2 {
+        min-width: 10px;
+        float: none;
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .minwidth {
+        min-width: 450px;
+    }
+}
 /* Location */
 
 .location h2 {
@@ -199,6 +230,7 @@ h2 {
 @media only screen and (max-width: 768px){
     
     .location {
+        margin-top: 12rem;
         width: 100%;
         height: auto;
     }
