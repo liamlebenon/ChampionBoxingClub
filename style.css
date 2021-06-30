@@ -64,7 +64,7 @@ nav {
         display: none;
     }
     nav {
-        min-width: 300px;
+        min-width: 200px;
     }
 
     #facilities {
@@ -85,6 +85,7 @@ nav {
         margin-top: 100px;
         position: relative;
         top: 7rem;
+        max-width: 50%;
     }
 
     #mobileGallery img {
