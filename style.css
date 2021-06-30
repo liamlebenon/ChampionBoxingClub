@@ -85,11 +85,13 @@ nav {
         margin-top: 100px;
         position: relative;
         top: 7rem;
-        max-width: 50%;
+        justify-content: space-around;
     }
 
     #mobileGallery img {
-        width: 150%;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
     }
 }
 
@@ -256,7 +258,7 @@ h2 {
 }
 
 /* Footer */
-.footer h5{
+footer h5{
     font-size: 1.5rem;
     color: white;
     background-color:rgb(31, 31, 31);
@@ -266,7 +268,7 @@ h2 {
 }
 
 @media only screen and (max-width: 768px){
-    .footer h5{
+    footer h5{
         margin-bottom: -2rem;
         padding-top: 0;
     }
