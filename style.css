@@ -59,7 +59,7 @@ nav {
     z-index: 1;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     .logo {
         display: none;
     }
@@ -174,7 +174,7 @@ h2 {
     min-width: 900px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .about-1 img, .about-2 img {
         display: none;
     }
@@ -230,7 +230,7 @@ h2 {
     padding-bottom: 10rem;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     
     .location {
         margin-top: 12rem;
@@ -267,7 +267,7 @@ footer h5{
     padding-top: 3rem;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     footer h5{
         margin-bottom: -2rem;
         padding-top: 0;
